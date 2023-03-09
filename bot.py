@@ -6,7 +6,7 @@ querystring = {"function":"TIME_SERIES_DAILY_ADJUSTED","symbol":"GBPUSD","output
 
 headers = {
     'x-rapidapi-host': "alpha-vantage.p.rapidapi.com",
-    'x-rapidapi-key': "52339cc604msh5894a92d867c113p14108djsnd89a01eed6c8"
+    'x-rapidapi-key': "###########API-KEY########"
     }
 
 response = requests.request("GET", url, headers=headers, params=querystring)
